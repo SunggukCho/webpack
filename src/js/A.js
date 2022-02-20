@@ -1,5 +1,6 @@
 import { textB }  from './B.js';
 import { textC }  from './C.js';
+import '../css/style.css'
 
 const text = "Hello Again";
 
