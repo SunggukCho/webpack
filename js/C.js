@@ -1,4 +1,1 @@
-const text = "CCCCCC";
-
-let target = document.getElementById("title")
-target.innerText = text
+export const textC = "CCCCCC";
