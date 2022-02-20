@@ -1,3 +1,4 @@
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 
 module.exports = {
@@ -17,5 +18,10 @@ module.exports = {
         use: ["style-loader", "css-loader"], // style-loader를 앞에 추가한다
       },
     ],
+  },
+  plugins: [new HtmlWebpackPlugin({
+    template: './index.html',
+    filename: './output.html'
   }
+  )]
 };
